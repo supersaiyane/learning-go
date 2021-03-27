@@ -11,8 +11,8 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
-        server: ${{ secrets.ftp_hostname }}
-        username: ${{ secrets.ftp_username }}
-        password: ${{ secrets.ftp_password }}
+        server: ftp://supersaiyane.in
+        username: u918309096
+        password: ${{secrets.ftp_password}}
         server-dir: public_html/techlogger/
         port: 21
