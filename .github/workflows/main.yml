@@ -13,6 +13,6 @@ jobs:
       with:
         server: ftp://supersaiyane.in
         username: u918309096
-        password: ${{secrets.FTP_PASSWORD}}
+        password: ${{secrets.ftp_password}}
         server-dir: public_html/techlogger/
         port: 21
